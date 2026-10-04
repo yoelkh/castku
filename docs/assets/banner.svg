@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 420" width="1280" height="420" role="img" aria-label="CastKu: turn your Android phone into a wireless second screen for Windows">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f1115"/>
+      <stop offset="0.55" stop-color="#161a22"/>
+      <stop offset="1" stop-color="#0c1a1c"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#14b8a6"/>
+      <stop offset="1" stop-color="#5eead4"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1d3b6e"/>
+      <stop offset="1" stop-color="#3a1f5c"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#14b8a6" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#14b8a6" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="420" fill="url(#bg)"/>
+  <circle cx="1000" cy="215" r="200" fill="url(#glow)"/>
+  <g opacity="0.06" stroke="#ffffff">
+    <path d="M0 70H1280M0 140H1280M0 210H1280M0 280H1280M0 350H1280"/>
+    <path d="M160 0V420M320 0V420M480 0V420M640 0V420M800 0V420M960 0V420M1120 0V420"/>
+  </g>
+
+  <!-- Title -->
+  <text x="72" y="150" fill="#ffffff" font-family="Segoe UI, Inter, Roboto, Helvetica, Arial, sans-serif" font-size="64" font-weight="700">CastKu</text>
+  <rect x="74" y="170" width="120" height="6" rx="3" fill="url(#accent)"/>
+  <text x="72" y="222" fill="#d4d7de" font-family="Segoe UI, Inter, Roboto, Helvetica, Arial, sans-serif" font-size="25">Your Android phone as a wireless second screen</text>
+  <text x="72" y="256" fill="#d4d7de" font-family="Segoe UI, Inter, Roboto, Helvetica, Arial, sans-serif" font-size="25">for Windows. Just press <tspan fill="#5eead4" font-weight="700">Win + K</tspan>.</text>
+  <g font-family="Segoe UI, Inter, Roboto, Helvetica, Arial, sans-serif" font-size="17" fill="#ffffff">
+    <rect x="72" y="292" width="148" height="36" rx="18" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.18"/>
+    <text x="146" y="316" text-anchor="middle">Native Wi-Fi Display</text>
+    <rect x="232" y="292" width="120" height="36" rx="18" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.18"/>
+    <text x="292" y="316" text-anchor="middle">60 fps · Extend</text>
+    <rect x="364" y="292" width="118" height="36" rx="18" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.18"/>
+    <text x="423" y="316" text-anchor="middle">Touch + audio</text>
+    <rect x="494" y="292" width="98" height="36" rx="18" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.18"/>
+    <text x="543" y="316" text-anchor="middle">No root</text>
+  </g>
+
+  <!-- Laptop -->
+  <g transform="translate(690 96)">
+    <rect x="0" y="0" width="300" height="190" rx="12" fill="#2a2f3a" stroke="#4a5163" stroke-width="2"/>
+    <rect x="12" y="12" width="276" height="166" rx="4" fill="url(#screen)"/>
+    <rect x="12" y="160" width="276" height="18" fill="#000000" fill-opacity="0.35"/>
+    <circle cx="150" cy="169" r="4" fill="#9fb4ff"/>
+    <rect x="30" y="34" width="92" height="58" rx="5" fill="#ffffff" fill-opacity="0.16"/>
+    <rect x="132" y="34" width="134" height="16" rx="4" fill="#ffffff" fill-opacity="0.12"/>
+    <rect x="132" y="58" width="96" height="16" rx="4" fill="#ffffff" fill-opacity="0.12"/>
+    <path d="M-30 190H330L310 214H-10Z" fill="#3a404d"/>
+    <rect x="120" y="190" width="60" height="6" rx="3" fill="#20242c"/>
+  </g>
+
+  <!-- Wireless waves -->
+  <g fill="none" stroke="url(#accent)" stroke-linecap="round" stroke-width="5">
+    <path d="M1006 160 a26 26 0 0 1 0 40" opacity="0.95"/>
+    <path d="M1020 146 a46 46 0 0 1 0 68" opacity="0.65"/>
+    <path d="M1034 132 a66 66 0 0 1 0 96" opacity="0.35"/>
+  </g>
+
+  <!-- Phone (landscape, extended desktop) -->
+  <g transform="translate(1060 176) rotate(-4)">
+    <rect x="0" y="0" width="190" height="94" rx="16" fill="#111318" stroke="#14b8a6" stroke-width="2.5"/>
+    <rect x="9" y="8" width="172" height="78" rx="9" fill="url(#screen)"/>
+    <rect x="9" y="76" width="172" height="10" fill="#000000" fill-opacity="0.35"/>
+    <circle cx="95" cy="81" r="2.5" fill="#9fb4ff"/>
+    <rect x="22" y="20" width="70" height="40" rx="4" fill="#ffffff" fill-opacity="0.18"/>
+    <rect x="100" y="20" width="66" height="10" rx="3" fill="#ffffff" fill-opacity="0.14"/>
+    <path d="M128 52 l0 16 l4 -4 l3 7 l3 -1.5 l-3 -7 l5.5 0 Z" fill="#ffffff"/>
+  </g>
+  <text x="1155" y="318" text-anchor="middle" fill="#5eead4" font-family="Segoe UI, Inter, Roboto, Helvetica, Arial, sans-serif" font-size="15" font-weight="600">second screen</text>
+  <text x="840" y="340" text-anchor="middle" fill="#9aa0ad" font-family="Segoe UI, Inter, Roboto, Helvetica, Arial, sans-serif" font-size="15">Windows 11</text>
+</svg>

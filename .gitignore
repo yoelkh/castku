@@ -1,0 +1,17 @@
+# Gradle / Android build output
+.gradle/
+build/
+.cxx/
+*.apk
+*.aab
+
+# Machine-specific
+local.properties
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Captures from debugging sessions
+*.ts
+*.log
